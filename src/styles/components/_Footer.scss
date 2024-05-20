@@ -1,0 +1,39 @@
+.pie {
+    height: 40vh;
+
+    & .titulos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        max-width: 500px;
+        height: 40px;
+        margin: auto;
+    }
+
+    & section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+
+        & a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            transform: translate(15px);
+        }
+    }
+
+    & aside {
+        & ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            list-style: none;
+            transform: translate(-15px);
+            height: 200px;
+            text-align: end;
+        }
+    }
+}
