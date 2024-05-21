@@ -1,5 +1,4 @@
 .container {
-    // transform: translate(0, 120px);
     height: 450px;
 
     & section {
@@ -11,15 +10,10 @@
     overflow: hidden;
     box-shadow: inset 0 0 15px #38041e;
     border-radius: 15px;
-    
     }
-    
-    // @media screen and (min-width: 768px){
-    //     display: none;
-    // }
+
 
     & .sliderContainer {
-        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,20 +24,6 @@
         border-radius: 15px;
         padding: 2%;
         
-        &:before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("/logos/black-axiora.svg");
-            background-repeat: no-repeat;
-            background-size: 500%;
-            background-position-x: -15%;
-            background-position-y: -55%;
-            opacity: 0.2;
-          }
 
         & img {
             width: 100%;
